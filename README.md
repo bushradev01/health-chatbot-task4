@@ -1,24 +1,15 @@
-\# 🩺 Health Chatbot (Task 4)
+Health Chatbot (Task 4)
 
-
-
-\## 📌 Project Overview
+📌 Project Overview
 
 This project is a \*\*General Health Query Chatbot\*\* built using a Large Language Model (LLM).  
 
 It allows users to ask general health-related questions and receive simple, safe, and friendly responses.
 
 
-
 The chatbot uses \*\*prompt engineering\*\*, \*\*safety filters\*\*, and a \*\*Streamlit-based UI\*\* to ensure a good user experience.
 
-
-
-\---
-
-
-
-\## 🎯 Objective
+🎯 Objective
 
 \- Build a chatbot using an LLM
 
@@ -29,11 +20,6 @@ The chatbot uses \*\*prompt engineering\*\*, \*\*safety filters\*\*, and a \*\*S
 \- Implement safety filters to prevent harmful advice
 
 \- Create a simple and interactive UI
-
-
-
-\---
-
 
 
 \## 🛠️ Technologies Used
@@ -47,12 +33,6 @@ The chatbot uses \*\*prompt engineering\*\*, \*\*safety filters\*\*, and a \*\*S
 \- LLaMA 3.1 8B Instant model
 
 \- python-dotenv (for API key management)
-
-
-
-\---
-
-
 
 \## 🤖 AI Model \& API Used
 
@@ -68,15 +48,7 @@ The chatbot uses \*\*prompt engineering\*\*, \*\*safety filters\*\*, and a \*\*S
 
 \*\*LLaMA 3.1 8B Instant\*\*
 
-
-
-\---
-
-
-
 \## ❓ Why Groq API was used instead of OpenAI / Hugging Face?
-
-
 
 Although the internship suggested:
 
@@ -85,9 +57,7 @@ Although the internship suggested:
 \- Hugging Face (Mistral-7B)
 
 
-
 We selected \*\*Groq API\*\* for the following reasons:
-
 
 
 \### ✔ Advantages of Groq:
@@ -102,8 +72,6 @@ We selected \*\*Groq API\*\* for the following reasons:
 
 \- Supports modern LLMs like LLaMA 3.1
 
-
-
 \### ❌ Why not OpenAI?
 
 \- Requires paid API access
@@ -111,10 +79,9 @@ We selected \*\*Groq API\*\* for the following reasons:
 \- Needs billing setup (not ideal for students)
 
 
-
 \### ❌ Why not Hugging Face?
 
-\- Free API is often unstable
+\- Free API is often unstable (i was facing errors when doing projetc so that why i shifted)
 
 \- Many models are unavailable or decommissioned
 
@@ -123,18 +90,10 @@ We selected \*\*Groq API\*\* for the following reasons:
 &#x20; "Cannot POST /models/..."
 
 
-
-\---
-
-
-
 \## 🛡️ Safety Features
 
 
-
 This chatbot includes a \*\*rule-based safety filter\*\* to prevent harmful responses.
-
-
 
 \### ✔ What it does:
 
@@ -152,17 +111,9 @@ This chatbot includes a \*\*rule-based safety filter\*\* to prevent harmful resp
 
 \- Shows a warning instead of generating AI response
 
-
-
 \### ✔ Purpose:
 
 To ensure the chatbot does NOT provide dangerous medical advice.
-
-
-
-\---
-
-
 
 \## 💬 Features
 
@@ -177,11 +128,6 @@ To ensure the chatbot does NOT provide dangerous medical advice.
 \- Suggested health questions
 
 \- Clear chat functionality
-
-
-
-\---
-
 
 
 \## 📁 Project Structure
